@@ -1,10 +1,8 @@
 {
-  "category": "ENTITY_SPIRIT",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/mara",
     "maintainers": [
       {
@@ -18,287 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "mara",
     "name": "Mara",
-    "aliases": [
-      {
-        "name": "Mora",
-        "language": "Scandinavian",
-        "region": "Scandinavia"
-      },
-      {
-        "name": "Mahr",
-        "language": "German",
-        "region": "Germany"
-      },
-      {
-        "name": "Mare",
-        "language": "English",
-        "meaning": "Night-mare"
-      }
-    ],
+    "aliases": [],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Slavic/Germanic Nightmare Spirit",
+    "subcategory": "Female Mare",
     "tags": [
-      "slavic",
-      "germanic",
-      "nightmare-spirit",
-      "sleep-paralysis",
-      "female-spirit",
       "folklore",
-      "etymology"
+      "mythology"
     ],
-    "status": "folklore",
+    "status": "documented",
     "description": {
-      "summary": "Slavic and Germanic nightmare spirit, the female counterpart to the Alp. The etymological root of the English word 'nightmare,' representing a female entity that sits on sleepers' chests, causing nightmares and paralysis.",
-      "full": "The Mara is a female nightmare spirit from Slavic and Germanic folklore, representing the etymological origin of the English word 'nightmare' (literally 'night-Mara'). Described as a female entity that visits sleepers at night, the Mara sits on the victim's chest like riding a horse, causing bad dreams, sleep paralysis, and suffocating sensations. In Slavic traditions, the Mara has a dual nature—sometimes appearing as a demonic entity, other times as the involuntarily wandering soul of a living person (often a woman) who leaves her body at night. These individuals might be identified by disheveled hair and sweating after their nocturnal activities. Protection methods include iron objects, brooms by the door, shoes placed backwards, and Christian prayers. The Mara represents one of the most widespread cultural interpretations of sleep paralysis, with the word itself surviving in modern English long after the original supernatural meaning faded."
+      "summary": "The Mara is a female nightmare spirit from Slavic and Germanic folklore, representing the **etymological origin of the English word \\\"nightmare\\\"** (literally \\\"night-Mara\\\").",
+      "full": "The Mara is a female nightmare spirit from Slavic and Germanic folklore, representing the **etymological origin of the English word \\\"nightmare\\\"** (literally \\\"night-Mara\\\"). Described as a female entity that visits sleepers at night, the Mara sits on the victim's chest like riding a horse, causing bad dreams, sleep paralysis, and suffocating sensations. In Slavic traditions, the Mara has a unique **dual nature**—sometimes appearing as a demonic entity, other times as the involuntarily wandering soul of a living person (often a woman) who leaves her body at night. These individuals might be identified by disheveled hair and sweating after their nocturnal activities. The Mara represents one of the most widespread and linguistically influential folklore entities, with the word itself surviving in modern English long after the original supernatural meaning faded."
     },
     "etymology": {
-      "origin": "From Proto-Germanic *marōn, from Proto-Indo-European *mor- (to rub away, harm)",
-      "meaning": "Female nightmare demon that 'rides' sleepers",
-      "linguistic_legacy": "Root of English 'nightmare,' German 'Nachtmahr,' Scandinavian 'mara'"
+      "origin": "|",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Nightmare Spirit",
-      "subtype": "Female Mare",
-      "variant": "Slavic/Germanic"
+      "type": "Female Mare",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "alp",
-        "name": "Alp",
-        "relationship": "male_counterpart",
-        "description": "Germanic male nightmare spirit"
-      },
-      {
-        "id": "mare",
-        "name": "Mare",
-        "relationship": "variant",
-        "description": "Generic European nightmare spirit"
-      },
-      {
-        "id": "night-hag",
-        "name": "Night Hag",
-        "relationship": "similar",
-        "description": "Sleep paralysis entity across cultures"
-      },
-      {
-        "id": "succubus-incubus",
-        "name": "Succubus",
-        "relationship": "related",
-        "description": "Female demon that oppresses male sleepers"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "appearance": [
-        {
-          "feature": "Form",
-          "description": "Female spirit or soul, often invisible",
-          "frequency": "common"
-        },
-        {
-          "feature": "Human form",
-          "description": "In Slavic tradition, may be soul of living woman",
-          "frequency": "common"
-        },
-        {
-          "feature": "Hair",
-          "description": "Disheveled or wild hair (in physical hosts)",
-          "frequency": "common"
-        },
-        {
-          "feature": "Weight",
-          "description": "Feels heavy when sitting on chest",
-          "frequency": "always"
-        }
-      ],
-      "dual_nature": "Can be either a demonic entity or the involuntarily wandering soul of a living person",
-      "morphology": "Primarily spiritual/incorporeal, though associated with physical changes in human hosts"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Sleep riding",
-        "description": "Rides sleepers like horses, causing nightmares",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Chest oppression",
-        "description": "Sits on chest causing paralysis and suffocation sensation",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Nightmare induction",
-        "description": "Causes terrifying dreams",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Soul travel",
-        "description": "In Slavic tradition, soul leaves body at night",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Suffocation",
-        "description": "Can cause severe breathing difficulty",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "malevolent or involuntary",
-      "nature": "Sometimes demonic, sometimes cursed humans",
-      "attack_pattern": "Visits sleepers at night, particularly targeting those who sleep on their backs"
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
-  "slavic_tradition": {
-    "dual_nature": "The Mara can be a separate demonic entity OR the wandering soul of a living person",
-    "involuntary_mara": {
-      "description": "Some people become Maras involuntarily, their souls leaving their bodies at night",
-      "identification": [
-        "Disheveled hair upon waking",
-        "Excessive sweating during sleep",
-        "Exhaustion despite sleep",
-        "Born with caul or under certain conditions"
-      ],
-      "control": "The person may have no conscious awareness or control of their night activities"
-    },
-    "victim_mara_relationship": "Both the Mara (if human) and the victim suffer from the phenomenon"
-  },
-
-  "protection": {
-    "preventive_measures": [
-      {
-        "method": "Iron under pillow",
-        "description": "Iron objects repel the Mara",
-        "effectiveness": "traditional"
-      },
-      {
-        "method": "Broom by door",
-        "description": "Mara must count broom straws before entering",
-        "effectiveness": "traditional"
-      },
-      {
-        "method": "Shoes backwards",
-        "description": "Place shoes with toes pointing away from bed",
-        "effectiveness": "traditional"
-      },
-      {
-        "method": "Christian prayers",
-        "description": "Prayers and religious protection",
-        "effectiveness": "traditional"
-      },
-      {
-        "method": "Plug keyholes",
-        "description": "Block entry points",
-        "effectiveness": "traditional"
-      }
-    ],
-    "against_human_mara": [
-      {
-        "method": "Secure the body",
-        "description": "If a living person is suspected of being Mara, securing their body prevents soul from wandering",
-        "effectiveness": "traditional"
-      }
-    ]
-  },
-
   "distribution": {
     "range": {
-      "description": "Slavic and Germanic cultural regions across Central and Eastern Europe",
-      "continents": ["Europe"],
-      "countries": [
-        "Poland",
-        "Russia",
-        "Czech Republic",
-        "Slovakia",
-        "Germany",
-        "Scandinavia",
-        "Baltic states"
-      ],
-      "regions": [
-        "Slavic cultural areas",
-        "Germanic regions",
-        "Scandinavian countries"
-      ]
+      "description": "|",
+      "continents": [],
+      "countries": [],
+      "regions": []
+    },
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Ancient Slavic and Germanic folk traditions",
-      "earliest_accounts": "Medieval texts and oral traditions",
-      "folklore_connections": "Part of broader Indo-European nightmare spirit traditions"
+      "cultural_roots": "|",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "linguistic_importance": "The word 'Mara' survived into modern English as 'mare' in 'nightmare,' preserving ancient folklore in contemporary language even after the original meaning was largely forgotten"
+    "timeline": []
   },
-
-  "etymology_detail": {
-    "proto_indo_european": "*mor- (to rub away, harm)",
-    "proto_germanic": "*marōn (nightmare spirit)",
-    "old_english": "mære (nightmare demon)",
-    "modern_english": "nightmare (originally 'night-Mara,' now just 'bad dream')",
-    "cognates": [
-      "German: Nachtmahr",
-      "Swedish: mara",
-      "Norwegian: mare",
-      "Icelandic: mara",
-      "Polish: zmora"
-    ]
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
-  "scientific_explanation": {
-    "interpretation": "The Mara represents a cultural explanation for sleep paralysis. The sensation of chest pressure, inability to move, and sense of presence during sleep-wake transitions were interpreted as a spirit 'riding' the sleeper.",
-    "sleep_paralysis": "Physiologically identical to sleep paralysis experiences worldwide, culturally interpreted through Slavic/Germanic folklore",
-    "status": "Traditional folklore explaining medical phenomenon"
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Slavic nightmare folklore",
-        "Germanic nightmare traditions",
-        "Scandinavian mara legends"
-      ],
-      "role": "Served as explanation for sleep paralysis and nightmares across multiple cultures",
-      "cultural_sensitivity": "Slavic and Germanic folk tradition, important linguistic heritage"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
-    "linguistic_legacy": {
-      "significance": "One of the most successful folklore terms to survive in modern language",
-      "modern_usage": "English speakers use 'nightmare' daily without awareness of the Mara spirit origin"
+    "popular_culture": {
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "sources": [
-    {
-      "id": "grimm-1835",
-      "type": "book",
-      "title": "Deutsche Mythologie (Teutonic Mythology)",
-      "authors": ["Jacob Grimm"],
-      "publication": "Various editions",
-      "date": "1835"
-    },
-    {
-      "id": "hufford-1982",
-      "type": "book",
-      "title": "The Terror That Comes in the Night",
-      "authors": ["David J. Hufford"],
-      "publication": "University of Pennsylvania Press",
-      "date": "1982",
-      "isbn": "978-0812211139"
-    }
-  ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
 }
